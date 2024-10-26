@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+@layer components {
+  .inputNormal {
+    @apply p-2 w-full border mb-4 border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:border-gray-400 placeholder:italic placeholder:text-sm text-slate-600;
+  }
+  .inputDark {
+    @apply p-2 w-full border mb-4 bg-slate-500 border-gray-200 rounded-md focus:outline-none focus:border-gray-400 placeholder:italic placeholder:text-sm;
+  }
+
+  .labelNormal {
+    @apply block mb-3 text-gray-700 text-base font-bold; /* Ensure same font size */
+  }
+  .labelDark {
+    @apply block mb-3 text-gray-800 text-base font-bold; /* Ensure same font size */
+  }
+
+  /* Ensure identical padding, width, and shadow for form */
+  .normalForm,
+  .darkForm {
+    @apply p-6 min-w-80 shadow-md w-[420px] rounded-md; /* Uniform sizing */
+  }
+
+  .normalForm {
+    @apply bg-normal-background-color; /* Normal mode background */
+  }
+
+  .darkForm {
+    @apply bg-gray-500; /* Dark mode background */
+  }
+
+  .normal {
+    @apply flex items-center justify-center min-h-screen bg-normal-highlight-color;
+  }
+
+  .dark {
+    @apply flex items-center justify-center min-h-screen bg-dark-background-color;
+  }
+}
