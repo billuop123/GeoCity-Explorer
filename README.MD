@@ -29,13 +29,12 @@ GeoCity Explorer is a React application for managing and exploring cities worldw
    ```
 
 2.Navigate to the root directory and install dependencies:
-npm install
+`npm install`
 
 3.Navigate to the frontend folder, install frontend dependencies, and start the development server:
 
-````cd frontend
-
+```
+cd frontend
 npm install
-npm start```
-
-````
+npm start
+```
