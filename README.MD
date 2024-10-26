@@ -16,10 +16,9 @@ GeoCity Explorer is a React application for managing and exploring cities worldw
 
 ## Technologies Used
 
-- **Frontend**: React, Tailwind CSS, React Query, React Router
+- **Frontend**: React, Tailwind CSS, React Router
 - **Backend**: Node.js, Express, MongoDB
 - **Map Integration**: Leaflet via react-leaflet
-- **Hosting**: Deployed on Vercel
 
 ## Installation
 
